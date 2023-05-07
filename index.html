@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="weight">
+        <h1 class="title">Weight Converter</h1>
+        <input type="number" placeholder="Weight in kgs" class="input" id="weightInput">
+        <div class="pounds weight hidden" id="po">
+            <h2>Pounds: </h2>
+            <h3 id="pounds">122</h3>
+        </div>
+        <div class="grams weight hidden" id="gr">
+            <h2>Grams: </h2>
+            <h3 id="grams">122</h3>
+        </div>
+        <div class="ounces weight hidden" id="oun">
+            <h2>Ounces: </h2>
+            <h3 id="ounces">122</h3>
+        </div>
+    </div>
+
+    <div class="height">
+        <h1 class="title">Height Converter</h1>
+        <input type="number" placeholder="Height in feet(Inches as deimals)" class="input" id="heightInput">
+        <div class="inches weight hidden" id="inch">
+            <h2>Inches: </h2>
+            <h3 id="inches">10</h3>
+        </div>
+
+        <div class="meters weight hidden" id="meter">
+            <h2>Meters: </h2>
+            <h3 id="meters">10</h3>
+        </div>
+
+        <div class="cms weight hidden" id="cm">
+            <h2>Centimeters: </h2>
+            <h3 id="cms">10</h3>
+        </div>
+    </div>
+
+    <div class="weight">
+        <h1 class="title">BMI Calculator</h1>
+        <input type="number" placeholder="Height In Meters(Don't Know It! Use our height calculator feature)" class="input" id="height">
+        <input type="number" placeholder="Weight in Kgs(Don't Know It! Use our weight calculator feature)" class="input" id="weight">
+        <button class="btn" id="btn">Calculate BMI</button>
+        <div class="bmi-analyze">
+            <h2 id="bmi" class="bmi hidden">22.1</h2>
+            <p id="bmi_analytics" class="hidden">Your bmi looks fine..</p>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

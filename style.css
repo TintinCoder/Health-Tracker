@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgba(0,0,0,0.85);
+}
+
+.title {
+    text-align: center;
+}
+
+.input {
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 12px;
+    background-color: transparent;
+    color: white;
+}
+
+.input::placeholder {
+    color: white;
+}
+
+.weight {
+    width: 90%;
+    padding: 13px 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-left: 50px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+.pounds {
+    background-color: rgba(255, 0, 0, 0.55);
+}
+
+.grams {
+    background-color: rgba(0, 255, 0, 0.55);
+}
+
+.ounces {
+    background-color: rgba(0, 0, 255, 0.55);
+}
+
+.height {
+    width: 90%;
+    padding: 13px 40px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top:20px;
+    margin-left: 50px;
+}
+
+#inch {
+    background-color: rgba(255, 0, 0, 0.55);
+}
+
+#meter {
+    background-color: rgba(0, 255, 0, 0.55);
+}
+
+#cm {
+    background-color: rgba(0, 0, 255, 0.55);
+}
+
+.bmi-analyze {
+    margin-left: 45px;
+    margin-top: 20px;
+}
+
+#bmi {
+    text-align: center;
+}
+
+#btn {
+    padding: 10px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    margin-left: 47%;
+    margin-top: 10px;
+}
+
+@media only screen and (max-width: 450px){
+    .weight {
+        margin-left: 23px;
+    } 
+
+    .height {
+        margin-left: 23px;
+    }
+
+    #btn {
+        margin-left: 32%;
+    }
+}
